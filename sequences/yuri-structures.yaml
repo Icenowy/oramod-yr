@@ -1,0 +1,46 @@
+yacnst:
+	Defaults:
+		Offset: 4, -58
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERATE: GENERIC
+			URBAN: GENERIC
+	idle: ygcnst_c
+		Length: 1
+		Tick: 150
+	damaged-idle: ygcnst_c
+		Start: 1
+		Length: 1
+		Tick: 150
+	make: ygcnstmk
+		Length: 27
+		ShadowStart: 27
+		TilesetOverrides:
+			TEMPERATE: GENERIC
+			URBAN: GENERIC
+	idle-top: ygcnst_a
+		Length: 3
+		Tick: 200
+	damaged-idle-top: ygcnst_a
+		Start: 3
+		Length: 3
+		Tick: 150
+	idle-normal: ygcnst
+		ShadowStart: 3
+		ZOffset: -1024
+	damaged-idle-normal: ygcnst
+		Start: 1
+		ShadowStart: 4
+		ZOffset: -1024
+	build: ygcnst_b
+		Length: 21
+		Tick: 150
+	damaged-build: ygcnst_b
+		Start: 21
+		Length: 21
+		Tick: 150
+	icon: yconicon
+		Offset: 0,0
+		UseTilesetCode: false
+
+

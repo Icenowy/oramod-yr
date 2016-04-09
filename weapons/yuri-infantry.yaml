@@ -1,0 +1,26 @@
+PsychicJab:
+	ReloadDelay: 15
+	Range: 4c5
+	Report: iiniatta.wav
+	Projectile: Bullet
+		Speed: 100c0
+	Warhead@1Dam: SpreadDamage
+		Spread: 64
+		Damage: 25
+		Versus:
+			None: 100
+			Flak: 80
+			Plate: 80
+			Light: 50
+			Medium: 25
+			Heavy: 25
+			Wood: 75
+			Steel: 50
+			Concrete: 25
+		DamageTypes: Prone70Percent, TriggerProne, ElectroDeath
+
+PsychicJabE:
+	Inherits: PsychicJab
+	Range: 6c0
+	Warhead@1Dam: SpreadDamage
+		Damage: 30

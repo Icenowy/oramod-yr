@@ -1,0 +1,334 @@
+# -----------------------------------------------------------------------------------
+# ThirdSide
+# -----------------------------------------------------------------------------------
+
+sidebar-yuricountry: chrome.png
+	background-top: 0,512,234,275
+	background-iconrow: 0,787,234,50
+	background-bottom: 0,837,234,66
+	background-supportoverlay: 250,532,64,48
+
+sidebar-button-yuricountry: chrome.png
+	background: 955,512,30,32
+sidebar-button-yuricountry-hover: chrome.png
+	background: 955,512,30,32
+sidebar-button-yuricountry-pressed: chrome.png
+	background: 955,512,30,32
+sidebar-button-yuricountry-highlighted: chrome.png
+	background: 955,512,30,32
+sidebar-button-yuricountry-highlighted-hover: chrome.png
+	background: 955,512,30,32
+sidebar-button-yuricountry-highlighted-pressed: chrome.png
+	background: 955,512,30,32
+sidebar-button-yuricountry-highlighted-disabled: chrome.png
+	background: 955,512,30,32
+sidebar-button-yuricountry-disabled: chrome.png
+	background: 955,512,30,32
+
+scrollup-buttons-yuricountry: chrome.png
+	background: 117,907,77,27
+scrollup-buttons-yuricountry-hover: chrome.png
+	background: 117,934,77,27
+scrollup-buttons-yuricountry-pressed: chrome.png
+	background: 117,961,77,27
+scrollup-buttons-yuricountry-highlighted: chrome.png
+	background: 117,988,77,27
+scrollup-buttons-yuricountry-highlighted-hover: chrome.png
+	background: 117,1015,77,27
+scrollup-buttons-yuricountry-highlighted-pressed: chrome.png
+	background: 117,1042,77,27
+scrollup-button-yuricountry-highlighted-disabled: chrome.png
+	background: 117,1069,77,27
+scrollup-buttons-yuricountry-disabled: chrome.png
+	background: 117,1069,77,27
+
+scrolldown-buttons-yuricountry: chrome.png
+	background: 40,907,77,27
+scrolldown-buttons-yuricountry-hover: chrome.png
+	background: 40,934,77,27
+scrolldown-buttons-yuricountry-pressed: chrome.png
+	background: 40,961,77,27
+scrolldown-buttons-yuricountry-highlighted: chrome.png
+	background: 40,988,77,27
+scrolldown-buttons-yuricountry-highlighted-hover: chrome.png
+	background: 40,1015,77,27
+scrolldown-buttons-yuricountry-highlighted-pressed: chrome.png
+	background: 40,1042,77,27
+scrolldown-button-yuricountry-highlighted-disabled: chrome.png
+	background: 40,1069,77,27
+scrolldown-buttons-yuricountry-disabled: chrome.png
+	background: 40,1069,77,27
+
+radar-yuricountry: chrome.png
+	insignia: 340,847,202,157
+
+repair-button-yuricountry: chrome.png
+	background: 580,527,44,34
+repair-button-yuricountry-hover: chrome.png
+	background: 580,561,44,34
+repair-button-yuricountry-pressed: chrome.png
+	background: 580,595,44,34
+repair-button-yuricountry-highlighted: chrome.png
+	background: 580,629,44,34
+repair-button-yuricountry-highlighted-hover: chrome.png
+	background: 580,663,44,34
+repair-button-yuricountry-highlighted-pressed: chrome.png
+	background: 580,697,44,34
+repair-button-yuricountry-disabled: chrome.png
+	background: 580,731,44,34
+repair-button-yuricountry-highlighted-disabled: chrome.png
+	background: 580,731,44,34
+
+power-button-yuricountry: chrome.png
+	background: 624,527,41,34
+power-button-yuricountry-hover: chrome.png
+	background: 624,561,41,34
+power-button-yuricountry-pressed: chrome.png
+	background: 624,595,41,34
+power-button-yuricountry-highlighted: chrome.png
+	background: 624,629,41,34
+power-button-yuricountry-highlighted-hover: chrome.png
+	background: 624,663,41,34
+power-button-yuricountry-highlighted-pressed: chrome.png
+	background: 624,697,41,34
+power-button-yuricountry-disabled: chrome.png
+	background: 624,731,41,34
+power-button-yuricountry-highlighted-disabled: chrome.png
+	background: 624,731,41,34
+
+beacon-button-yuricountry: chrome.png
+	background: 665,527,41,34
+beacon-button-yuricountry-hover: chrome.png
+	background: 665,561,41,34
+beacon-button-yuricountry-pressed: chrome.png
+	background: 665,595,41,34
+beacon-button-yuricountry-highlighted: chrome.png
+	background: 665,629,41,34
+beacon-button-yuricountry-highlighted-hover: chrome.png
+	background: 665,663,41,34
+beacon-button-yuricountry-highlighted-pressed: chrome.png
+	background: 665,697,41,34
+beacon-button-yuricountry-disabled: chrome.png
+	background: 665,731,41,34
+beacon-button-yuricountry-highlighted-disabled: chrome.png
+	background: 665,731,41,34
+
+sell-button-yuricountry: chrome.png
+	background: 706,527,43,34
+sell-button-yuricountry-hover: chrome.png
+	background: 706,561,43,34
+sell-button-yuricountry-pressed: chrome.png
+	background: 706,595,43,34
+sell-button-yuricountry-highlighted: chrome.png
+	background: 706,629,43,34
+sell-button-yuricountry-highlighted-hover: chrome.png
+	background: 706,663,43,34
+sell-button-yuricountry-highlighted-pressed: chrome.png
+	background: 706,697,43,34
+sell-button-yuricountry-disabled: chrome.png
+	background: 706,731,43,34
+sell-button-yuricountry-highlighted-disabled: chrome.png
+	background: 706,731,43,34
+
+buildings-button-yuricountry: chrome.png
+	background: 340,532,30,32
+buildings-button-yuricountry-hover: chrome.png
+	background: 340,564,30,32
+buildings-button-yuricountry-pressed: chrome.png
+	background: 340,596,30,32
+buildings-button-yuricountry-highlighted: chrome.png
+	background: 340,628,30,32
+buildings-button-yuricountry-highlighted-hover: chrome.png
+	background: 340,660,30,32
+buildings-button-yuricountry-highlighted-pressed: chrome.png
+	background: 340,692,30,32
+buildings-button-yuricountry-disabled: chrome.png
+	background: 340,724,30,32
+buildings-button-yuricountry-highlighted-disabled: chrome.png
+	background: 340,724,30,32
+
+support-button-yuricountry: chrome.png
+	background: 370,532,30,32
+support-button-yuricountry-hover: chrome.png
+	background: 370,564,30,32
+support-button-yuricountry-pressed: chrome.png
+	background: 370,596,30,32
+support-button-yuricountry-highlighted: chrome.png
+	background: 370,628,30,32
+support-button-yuricountry-highlighted-hover: chrome.png
+	background: 370,660,30,32
+support-button-yuricountry-highlighted-pressed: chrome.png
+	background: 370,692,30,32
+support-button-yuricountry-disabled: chrome.png
+	background: 370,724,30,32
+support-button-yuricountry-highlighted-disabled: chrome.png
+	background: 370,724,30,32
+
+infantry-button-yuricountry: chrome.png
+	background: 400,532,30,32
+infantry-button-yuricountry-hover: chrome.png
+	background: 400,564,30,32
+infantry-button-yuricountry-pressed: chrome.png
+	background: 400,596,30,32
+infantry-button-yuricountry-highlighted: chrome.png
+	background: 400,628,30,32
+infantry-button-yuricountry-highlighted-hover: chrome.png
+	background: 400,660,30,32
+infantry-button-yuricountry-highlighted-pressed: chrome.png
+	background: 400,692,30,32
+infantry-button-yuricountry-disabled: chrome.png
+	background: 400,724,30,32
+infantry-button-yuricountry-highlighted-disabled: chrome.png
+	background: 400,724,30,32
+
+vehicles-button-yuricountry: chrome.png
+	background: 430,532,30,32
+vehicles-button-yuricountry-hover: chrome.png
+	background: 430,564,30,32
+vehicles-button-yuricountry-pressed: chrome.png
+	background: 430,596,30,32
+vehicles-button-yuricountry-highlighted: chrome.png
+	background: 430,628,30,32
+vehicles-button-yuricountry-highlighted-hover: chrome.png
+	background: 430,660,30,32
+vehicles-button-yuricountry-highlighted-pressed: chrome.png
+	background: 430,692,30,32
+vehicles-button-yuricountry-highlighted-disabled: chrome.png
+	background: 430,724,30,32
+vehicles-button-yuricountry-disabled: chrome.png
+	background: 430,724,30,32
+
+aircrafts-button-yuricountry: chrome.png
+	background: 460,532,30,32
+aircrafts-button-yuricountry-hover: chrome.png
+	background: 460,564,30,32
+aircrafts-button-yuricountry-pressed: chrome.png
+	background: 460,596,30,32
+aircrafts-button-yuricountry-highlighted: chrome.png
+	background: 460,628,30,32
+aircrafts-button-yuricountry-highlighted-hover: chrome.png
+	background: 460,660,30,32
+aircrafts-button-yuricountry-highlighted-pressed: chrome.png
+	background: 460,692,30,32
+aircrafts-button-yuricountry-highlighted-disabled: chrome.png
+	background: 460,724,30,32
+aircrafts-button-yuricountry-disabled: chrome.png
+	background: 460,724,30,32
+
+ships-button-yuricountry: chrome.png
+	background: 490,532,30,32
+ships-button-yuricountry-hover: chrome.png
+	background: 490,564,30,32
+ships-button-yuricountry-pressed: chrome.png
+	background: 490,596,30,32
+ships-button-yuricountry-highlighted: chrome.png
+	background: 490,628,30,32
+ships-button-yuricountry-highlighted-hover: chrome.png
+	background: 490,660,30,32
+ships-button-yuricountry-highlighted-pressed: chrome.png
+	background: 490,692,30,32
+ships-button-yuricountry-highlighted-disabled: chrome.png
+	background: 490,724,30,32
+ships-button-yuricountry-disabled: chrome.png
+	background: 490,724,30,32
+
+power-icons-yuricountry: chrome.png
+	power-normal: 326,812,19,19
+	power-critical: 307,812,19,19
+
+cash-icons-yuricountry: chrome.png
+	cash-normal: 326,793,19,19
+	cash-critical: 307,793,19,19
+
+diplomacy-button-yuricountry: chrome.png
+	background: 550,847,69,23
+diplomacy-button-yuricountry-hover: chrome.png
+	background: 550,870,69,23
+diplomacy-button-yuricountry-pressed: chrome.png
+	background: 550,893,69,23
+diplomacy-button-yuricountry-highlighted: chrome.png
+	background: 550,916,69,23
+diplomacy-button-yuricountry-highlighted-hover: chrome.png
+	background: 550,939,69,23
+diplomacy-button-yuricountry-highlighted-pressed: chrome.png
+	background: 550,962,69,23
+diplomacy-button-yuricountry-highlighted-disabled: chrome.png
+	background: 550,985,69,23
+diplomacy-button-yuricountry-disabled: chrome.png
+	background: 550,985,69,23
+
+debug-button-yuricountry: chrome.png
+	background: 619,847,62,23
+debug-button-yuricountry-hover: chrome.png
+	background: 619,870,62,23
+debug-button-yuricountry-pressed: chrome.png
+	background: 619,893,62,23
+debug-button-yuricountry-highlighted: chrome.png
+	background: 619,916,62,23
+debug-button-yuricountry-highlighted-hover: chrome.png
+	background: 619,939,62,23
+debug-button-yuricountry-highlighted-pressed: chrome.png
+	background: 619,962,62,23
+debug-button-yuricountry-highlighted-disabled: chrome.png
+	background: 619,985,62,23
+debug-button-yuricountry-disabled: chrome.png
+	background: 619,985,62,23
+
+options-button-yuricountry: chrome.png
+	background: 681,847,69,23
+options-button-yuricountry-hover: chrome.png
+	background: 681,870,69,23
+options-button-yuricountry-pressed: chrome.png
+	background: 681,893,69,23
+options-button-yuricountry-highlighted: chrome.png
+	background: 681,916,69,23
+options-button-yuricountry-highlighted-hover: chrome.png
+	background: 681,939,69,23
+options-button-yuricountry-highlighted-pressed: chrome.png
+	background: 681,962,69,23
+options-button-yuricountry-highlighted-disabled: chrome.png
+	background: 681,985,69,23
+options-button-yuricountry-disabled: chrome.png
+	background: 681,985,69,23
+
+# bad coordinates - find where to add this button
+stats-button-yuricountry: chrome.png
+	background: 985,0,30,32
+stats-button-yuricountry-hover: chrome.png
+	background: 985,545,30,32
+stats-button-yuricountry-pressed: chrome.png
+	background: 985,578,30,32
+stats-button-yuricountry-highlighted: chrome.png
+	background: 985,611,30,32
+stats-button-yuricountry-highlighted-hover: chrome.png
+	background: 985,644,30,32
+stats-button-yuricountry-highlighted-pressed: chrome.png
+	background: 985,677,30,32
+stats-button-yuricountry-highlighted-disabled: chrome.png
+	background: 985,710,30,32
+stats-button-yuricountry-disabled: chrome.png
+	background: 985,710,30,32
+
+production-icons-yuricountry: chrome.png
+	building: 250,622,19,19
+	building-disabled: 269,622,19,19
+	building-alert: 288,622,19,19
+	support: 250,641,19,19
+	support-disabled: 269,641,19,19
+	support-alert: 288,641,19,19
+	infantry: 250,660,19,19
+	infantry-disabled: 269,660,19,19
+	infantry-alert: 288,660,19,19
+	vehicle: 250,679,19,19
+	vehicle-disabled: 269,679,19,19
+	vehicle-alert: 288,679,19,19
+	aircraft: 250,698,19,19
+	aircraft-disabled: 269,698,19,19
+	aircraft-alert: 288,698,19,19
+	ship: 250,717,19,19
+	ship-disabled: 269,717,19,19
+	ship-alert: 288,717,19,19
+
+flags: buttons.png
+	yuricountry:  90, 00, 45, 21
+

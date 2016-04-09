@@ -1,0 +1,43 @@
+init:
+	Inherits@1: ^Infantry
+	Inherits@2: ^Parachutable
+	Buildable:
+		Queue: Infantry
+		Prerequisites: ~nahand
+		BuildPaletteOrder: 10
+	Valued:
+		Cost: 200
+	Tooltip:
+		Name: Yuri Initiate
+		Description: Yuri's basic infantry.\n  Strong vs Infantry, Vehicles\n  Weak vs Aircraft
+	Selectable:
+		Bounds: 20, 30, 0, -11
+	Health:
+		HP: 100
+	Mobile:
+		Speed: 34
+	Passenger:
+		PipType: Green
+		GrantUpgrades: ifv-machinegun
+	RevealsShroud:
+		Range: 5c0
+	AttackFrontal:
+		Voice: Attack
+	Armament@primary:
+		Weapon: PsychicJab
+		UpgradeTypes: eliteweapon
+		UpgradeMaxEnabledLevel: 0
+		UpgradeMaxAcceptedLevel: 1
+	Armament@elite:
+		Weapon: PsychicJabE
+		UpgradeTypes: eliteweapon
+		UpgradeMinEnabledLevel: 1
+	WithInfantryBody:
+	Voiced:
+		VoiceSet: ConscriptVoice
+	ProducibleWithLevel:
+		Prerequisites: barracks.infiltrated
+	QuantizeFacingsFromSequence:
+		Sequence: stand
+
+

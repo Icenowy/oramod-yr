@@ -1,0 +1,51 @@
+yacnst:
+	Inherits: ^Building
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 1000
+		Prerequisites: ~disabled
+	Building:
+		Footprint: xxxx xxxx xxxx xxxx
+		Dimensions: 4,4
+	Selectable:
+		Bounds: 220, 180, 0, -35
+	ProvidesPrerequisite@yuricountry:
+		Prerequisite: structures.yuricountry
+	Health:
+		HP: 1000
+	Armor:
+		Type: Concrete
+	RevealsShroud:
+		Range: 8c0
+	Valued:
+		Cost: 3000
+	Production:
+		Produces: Building, Support
+	Tooltip:
+		Name: Construction Yard
+		Description: Allows construction of base structures.
+	BaseBuilding:
+	Transforms:
+		IntoActor: pcv
+		Offset: 1,1
+		Facing: 96
+		DeployCursor: undeploy
+	ProductionBar@Building:
+		ProductionType: Building
+	ProductionBar@Support:
+		ProductionType: Support
+	WithIdleOverlay@top:
+		Sequence: idle-top
+	WithIdleOverlay@normal:
+		Sequence: idle-normal
+	WithBuildingPlacedAnimation:
+	EmitInfantryOnSell@allies:
+		ActorTypes: e1, e1, e1, engineer
+		Factions: america, germany, england, france, korea
+	EmitInfantryOnSell@soviets:
+		ActorTypes: e2, e2, e2, e2, engineer
+		Factions: cuba, libya, iraq, russia
+	EmitInfantryOnSell@yuricountry:
+		ActorTypes: e2, e2, e2, engineer
+		Factions: yuricountry
+
