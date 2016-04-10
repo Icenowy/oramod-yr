@@ -6,3 +6,9 @@ ltnk:
 
 ytnk:
 	icon: ytnkicon
+
+mind:
+	icon: mindicon
+
+disk:
+	icon: diskicon

@@ -195,4 +195,59 @@ yaggun:
 		Offset: 0,0
 		UseTilesetCode: false
 
-	
+yapsyt:
+	Defaults:
+		Offset: 1,-15
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERATE: GENERIC
+			URBAN: GENERIC
+	idle-normal: ygpsyt
+		ShadowStart: 3
+	damaged-idle-normal: ygpsyt
+		Start: 1
+		ShadowStart: 4
+	idle: ygpsyt_a
+		Length: 26
+		Tick: 100
+		ShadowStart: 52
+	damaged-idle: ygpsyt_a
+		Start: 26
+		Length: 26
+		Tick: 180
+		ShadowStart: 78
+	icon: psyticon
+		Offset: 0,0
+		UseTilesetCode: false
+	make: ygpsytmk
+		Length: 31
+		ShadowStart: 31
+		Tick: 80
+
+yatech:
+	Defaults:
+		Offset: -15, -40
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERATE: GENERIC
+			URBAN: GENERIC
+	idle: ygtech
+		ShadowStart: 3
+	damaged-idle: ygtech
+		Start: 1
+		ShadowStart: 4
+	idle-lights: ygtech_a
+		Length: 32
+		ShadowStart: 64
+	damaged-idle-ights: ygtech_a
+		Start: 32
+		Length: 32
+		ShadowStart: 96
+	make: ygtechmk
+		Length: 25
+		ShadowStart: 25
+	icon: ytchicon
+		Offset: 0,0
+		UseTilesetCode: false
+
+

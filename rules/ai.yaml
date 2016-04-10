@@ -13,8 +13,10 @@ Player:
 		BuildingLimits:
 			garefn: 4
 			narefn: 4
+			yarefn: 8
 			gapowr: 8
 			napowr: 8
+			yapowr: 8
 			nanrct: 1
 			gapile: 2
 			nahand: 2
@@ -42,6 +44,7 @@ Player:
 			napsis: 1%
 			gatech: 1%
 			natech: 1%
+			yatech: 1%
 			naclon: 1%
 			gadept: 1%
 			nadept: 1%
@@ -49,6 +52,7 @@ Player:
 			naflak: 1%
 			tesla: 1%
 			gtgcan: 1%
+			yapsyt: 1%
 			gapill: 2%
 			nalasr: 2%
 			yaggun: 2.5%
@@ -66,14 +70,15 @@ Player:
 			tany: 1%
 			snipe: 1%
 			htnk: 3%
-			htk: 1%
+			htk: 2%
 			mtnk: 3%
-			fv: 1%
+			fv: 2%
 			ltnk: 3%
-			ytnk: 1%
+			ytnk: 2%
 			sref: 0.5%
 			mgtk: 0.5%
 			apoc: 0.5%
+			mind: 0.6%
 			dtruck: 1%
 			tnkd: 1%
 			ttnk: 1%
@@ -81,4 +86,5 @@ Player:
 			shad: 1%
 			zep: 1%
 			yuri: 1%
+			disk: 1%
 		SquadSize: 5

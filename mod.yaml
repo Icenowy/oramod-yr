@@ -105,6 +105,7 @@ Rules:
 	ra2|rules/allied-naval.yaml
 	ra2|rules/soviet-naval.yaml
 	ra2|rules/aircraft.yaml
+	yr|rules/aircraft.yaml
 	ra2|rules/civilian-props.yaml
 	ra2|rules/trees.yaml
 	ra2|rules/civilian-naval.yaml

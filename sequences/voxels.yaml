@@ -11,3 +11,10 @@ ytnk:
 
 yaggun:
 	turret: yaggun
+
+mind:
+	idle: mind
+
+disk:
+	idle: disk
+	turret: disktur

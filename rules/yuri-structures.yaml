@@ -330,3 +330,79 @@ yaggun:
 		Range: 6c0
 		Type: pillbox
 	AutoTarget:
+
+yapsyt:
+	Inherits: ^SupportBuilding
+	Buildable:
+		Queue: Support
+		BuildPaletteOrder: 35
+		Prerequisites: power, radar, ~structures.yuricountry
+	Valued:
+		Cost: 1500
+	Tooltip:
+		Name: Psychic Tower
+		Description: Mysterious tower which can control people's minds.
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Selectable:
+		Bounds: 44, 102, 0, -40
+	Health:
+		HP: 455
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 5c0
+	WithChargeAnimation:
+	Armament:
+		Weapon: MindControl
+	AttackLoyalty:
+		TargetsAtOnce: 3
+	Power:
+		Amount: -100
+	AutoTarget:
+	RequiresPower:
+	WithIdleOverlay@normal:
+		Sequence: idle-normal
+		PauseOnLowPower: true
+	WithRangeCircle:
+		Range: 8c0
+		Type: prismcannon
+	CanPowerDown:
+		IndicatorPalette: ts-mouse
+		PowerupSpeech: BuildingOnline
+		PowerdownSpeech: BuildingOffline
+
+yatech:
+	Inherits: ^Building
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 70
+		Prerequisites: radar, yaweap, ~structures.yuricountry
+	Selectable:
+		Bounds: 122, 216, 0, -81
+	Valued:
+		Cost: 2000
+	Tooltip:
+		Name: Battle Lab
+		Description: Allows deployment of advanced units.
+	ProvidesPrerequisite@default:
+	Building:
+		Footprint: xx xx xx
+		Dimensions: 3,2
+	Health:
+		HP: 500
+	Armor:
+		Type: Wood
+	RevealsShroud:
+		Range: 6c0
+	WithIdleOverlay@lights:
+		Sequence: idle-lights
+	Power:
+		Amount: -100
+	InfiltrateForSupportPower:
+		Proxy: yuricountry.tech.infiltrated
+	Targetable:
+		TargetTypes: Ground, C4, DetonateAttack, Structure, SpyInfiltrate
+
+

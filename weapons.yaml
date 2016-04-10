@@ -102,3 +102,27 @@ AAGattling2:
 			Concrete: 3
 		DamageTypes: BulletDeath
 
+disklaser:
+	ValidTarget: Ground, Water, Air
+	ReloadDelay: 40
+	Range: 7c0
+	Report: bpriat1a.wav
+	Projectile: LaserZap
+		BeamWidth: 4
+		UsePlayerColor: true
+	Warhead@1Dam: SpreadDamage
+		Spread: 42
+		Damage: 90
+		Versus:
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 50
+			Medium: 50
+			Heavy: 50
+			Wood: 100
+			Steel: 100
+			Concrete: 100
+		DamageTypes: RadiationDeath
+
+

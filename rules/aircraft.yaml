@@ -1,0 +1,56 @@
+disk:
+	Inherits: ^Aircraft
+	Valued:
+		Cost: 1750
+	Tooltip:
+		Name: Floating Disk
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 20
+		Prerequisites: ~yaweap, yatech
+	Selectable:
+	Aircraft:
+		CruiseAltitude: 5600
+		TurnSpeed: 5
+		Speed: 50
+		Voice: Move
+		AirborneUpgrades: airborne
+		CanHover: True
+	Targetable@airborne:
+		TargetTypes: Air
+		UpgradeTypes: airborne
+		UpgradeMinEnabledLevel: 1
+	Health:
+		HP: 600
+	Armor:
+		Type: Light
+	RevealsShroud:
+		Range: 9c0
+		Type: CenterPosition
+	Armament:
+		Weapon: disklaser
+	Turreted:
+		TurnSpeed: 5
+	AttackTurreted:
+		Voice: Attack
+	AutoTarget:
+	RenderSprites:
+	RenderVoxels:
+	WithVoxelBody:
+	WithVoxelTurret:
+	Hovers:
+		OffsetModifier: -10
+	Explodes:
+		Weapon: UnitExplode
+		Chance: 75
+	AnnounceOnBuild:
+	Voiced:
+		VoiceSet: KirovVoice
+#	SpawnActorOnDeath:
+#		Actor: zephusk
+	Targetable@ground:
+		TargetTypes: Ground
+		UpgradeTypes: airborne
+		UpgradeMaxEnabledLevel: 0
+
+	

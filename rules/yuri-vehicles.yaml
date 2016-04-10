@@ -132,4 +132,43 @@ ytnk:
 	ProducibleWithLevel:
 		Prerequisites: warfactory.infiltrated
 
+mind:
+	Inherits: ^Vehicle
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 100
+		Prerequisites: yatech, ~yaweap
+	Valued:
+		Cost: 1750
+	Tooltip:
+		Name: Master Mind
+		Description: Yuri is the master.
+	Selectable:
+		Bounds: 64, 52, 0, -10
+	Health:
+		HP: 500
+	Armor:
+		Type: Heavy
+	Mobile:
+		TurnSpeed: 6
+		Speed: 60
+	RevealsShroud:
+		Range: 8c0
+	Armament@primary:
+		Weapon: MindControl
+	AttackLoyalty:
+		Voice: Attack
+		TargetsAtOnce: 3
+	AutoTarget:
+	Explodes:
+		Weapon: UnitExplodeSmall
+		EmptyWeapon: UnitExplodeSmall
+	RenderSprites:
+	RenderVoxels:
+	WithVoxelBody:
+	Voiced:
+		VoiceSet: AlliedVehicleVoice
+	ProducibleWithLevel:
+		Prerequisites: warfactory.infiltrated
+
 
