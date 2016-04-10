@@ -40,4 +40,41 @@ init:
 	QuantizeFacingsFromSequence:
 		Sequence: stand
 
-
+yuri:
+	Inherits: ^Infantry
+	Buildable:
+		Queue: Infantry
+		BuildAtProductionType: Infantry
+		BuildPaletteOrder: 180
+		Prerequisites: radar, ~yabrck
+	Valued:
+		Cost: 600
+	Tooltip:
+		Name: Yuri Clone
+		Description: Clones of Yuri \n still powerful vs \n some infantry and vehicles
+	Selectable:
+		Bounds: 20, 30, 0, -11
+	Voiced:
+		VoiceSet: YuriVoice
+	Health:
+		HP: 100
+	Mobile:
+		Speed: 40
+	RevealsShroud:
+		Range: 12c0
+	Armor:
+		Type: None
+	Passenger:
+		PipType: Red
+	Armament@primary:
+		Weapon: MindControl
+#	Armament@secondary:
+#		Weapon: PsiWave
+	AttackLoyalty:
+		Voice: Attack
+	TakeCover:
+	WithInfantryBody:
+		IdleSequences: idle1,idle2
+	QuantizeFacingsFromSequence:
+		Sequence: stand
+	-MindControllable:

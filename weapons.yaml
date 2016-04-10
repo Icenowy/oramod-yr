@@ -1,0 +1,104 @@
+ATGUN:
+	ReloadDelay: 60
+	Range: 5c0
+	Report: vgriatta.wav, vgriattb.wav, vgriattc.wav
+	Projectile: Bullet
+		Speed: 40c0
+		Image: 120mm
+		Palette: ra
+		Shadow: true
+		Angle: 62
+	Warhead@1Dam: SpreadDamage
+		Spread: 128
+		Damage: 65
+		Versus:
+			None: 25
+			Flak: 25
+			Plate: 25
+			Light: 75
+			Medium: 100
+			Heavy: 100
+			Wood: 65
+			Steel: 45
+			Concrete: 60
+		DamageTypes: Prone50Percent, TriggerProne, ExplosionDeath
+	Warhead@2Eff: CreateEffect
+		Explosions: medium_clsn
+		ImpactSounds: gexp14a.wav
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosions: small_watersplash
+		ImpactSounds: gexpwasa.wav
+		ValidImpactTypes: Water
+	Warhead@4Smu: LeaveSmudge
+		SmudgeType: SmallCrater, SmallScorch
+
+ATGUNE:
+	Inherits: ATGUN
+	ReloadDelay: 75
+	Burst: 2
+	BurstDelay: 5
+	Warhead@1Dam: SpreadDamage
+		Damage: 55
+		Versus:
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 100
+			Medium: 100
+			Heavy: 100
+			Wood: 65
+			Steel: 45
+			Concrete: 60
+	Warhead@2Eff: CreateEffect
+		Explosions: elite_explosion
+		ImpactSounds: gexpapoa.wav
+	Warhead@3EffWater: CreateEffect
+		Explosions: large_watersplash
+		ImpactSounds: gexpwala.wav
+
+AGGattling2:
+	ValidTargets: Ground, Water
+	ReloadDelay: 16
+	Range: 5c0
+	Report: vgatlo4a.wav, vgatlo5a.wav, vgatlo5b.wav, vgatlo6a.wav
+	Projectile: Bullet
+		Speed: 100c0
+	Warhead@1Dam: SpreadDamage
+		Spread: 64
+		Damage: 25
+		Versus:
+			None: 100
+			Flak: 80
+			Plate: 70
+			Light: 50
+			Medium: 30
+			Heavy: 10
+			Wood: 10
+			Steel: 5
+			Concrete: 3
+		DamageTypes: Prone70Percent, TriggerProne, BulletDeath
+
+AAGattling2:
+	ValidTargets: Air
+	ReloadDelay: 8
+	Range: 8c0
+	Report: vgatlo4a.wav, vgatlo5a.wav, vgatlo5b.wav, vgatlo6a.wav
+	Projectile: Bullet
+		Speed: 100c0
+	Warhead@1Dam: SpreadDamage
+		Spread: 120
+		Damage: 30
+		ValidTargets: Air
+		Versus:
+			None: 100
+			Flak: 80
+			Plate: 70
+			Light: 50
+			Medium: 30
+			Heavy: 10
+			Wood: 10
+			Steel: 5
+			Concrete: 3
+		DamageTypes: BulletDeath
+

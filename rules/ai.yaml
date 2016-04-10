@@ -6,8 +6,8 @@ Player:
 			Refinery: garefn, narefn, yarefn
 			Power: gapowr, napowr, nanrct, yapowr
 			Barracks: gapile, nahand, yabrck
-			VehiclesFactory: gaweap, naweap
-			Production: gapile, nahand, gaweap, naweap, gaairc, yabrck
+			VehiclesFactory: gaweap, naweap, yaweap
+			Production: gapile, nahand, gaweap, naweap, gaairc, yabrck, yaweap
 		UnitsCommonNames:
 			Mcv: amcv, smcv, pcv
 		BuildingLimits:
@@ -18,8 +18,10 @@ Player:
 			nanrct: 1
 			gapile: 2
 			nahand: 2
+			yabrck: 2
 			gaweap: 2
 			naweap: 2
+			yaweap: 2
 			gaairc: 2
 		BuildingFractions:
 			garefn: 30%
@@ -33,9 +35,11 @@ Player:
 			yabrck: 1%
 			gaweap: 1%
 			naweap: 1%
+			yaweap: 1%
 			gaairc: 1%
 			amradr: 1%
 			naradr: 1%
+			napsis: 1%
 			gatech: 1%
 			natech: 1%
 			naclon: 1%
@@ -47,6 +51,7 @@ Player:
 			gtgcan: 1%
 			gapill: 2%
 			nalasr: 2%
+			yaggun: 2.5%
 		UnitsToBuild:
 			e1: 90%
 			e2: 90%
@@ -64,6 +69,8 @@ Player:
 			htk: 1%
 			mtnk: 3%
 			fv: 1%
+			ltnk: 3%
+			ytnk: 1%
 			sref: 0.5%
 			mgtk: 0.5%
 			apoc: 0.5%
@@ -73,4 +80,5 @@ Player:
 			ghost: 1%
 			shad: 1%
 			zep: 1%
+			yuri: 1%
 		SquadSize: 5

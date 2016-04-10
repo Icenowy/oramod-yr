@@ -1,3 +1,13 @@
 pcv:
-	idle:
+	idle: pcv
 
+ltnk:
+	idle: ltnk
+	turret: ltnktur
+
+ytnk:
+	idle: ytnk
+	turret: ytnktur
+
+yaggun:
+	turret: yaggun

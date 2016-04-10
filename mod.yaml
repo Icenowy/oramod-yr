@@ -69,6 +69,7 @@ Packages:
 	~urban.mix
 	~audio.bag
 	ra2|bits
+	yr|bits
 	ra2|bits/cameos
 	ra2|bits/structures
 	ra2|bits/temperate
@@ -88,12 +89,12 @@ Rules:
 	ra2|rules/palettes.yaml
 	ra2|rules/defaults.yaml
 	ra2|rules/allied-infantry.yaml
-	ra2|rules/soviet-infantry.yaml
+	yr|rules/soviet-infantry.yaml
 	yr|rules/yuri-infantry.yaml
 	ra2|rules/civilians.yaml
 	ra2|rules/animals.yaml
 	ra2|rules/allied-structures.yaml
-	ra2|rules/soviet-structures.yaml
+	yr|rules/soviet-structures.yaml
 	yr|rules/yuri-structures.yaml
 	ra2|rules/civilian-structures.yaml
 	ra2|rules/tech-structures.yaml
@@ -123,6 +124,7 @@ Sequences:
 	ra2|sequences/civilian-props.yaml
 	ra2|sequences/tech-structures.yaml
 	ra2|sequences/vehicles.yaml
+	yr|sequences/vehicles.yaml
 	ra2|sequences/trees.yaml
 
 VoxelSequences:
@@ -188,6 +190,7 @@ Weapons:
 	ra2|weapons.yaml
 	ra2|weapons/allied-infantry.yaml
 	ra2|weapons/soviet-infantry.yaml
+	yr|weapons.yaml
 	yr|weapons/yuri-infantry.yaml
 
 Voices:
@@ -307,3 +310,7 @@ GameSpeeds:
 		Name: Fastest
 		Timestep: 20
 		OrderLatency: 6
+	unhumanity:
+		Name: Unhumanity
+		TimeStep: 5
+		OrderLatency: 8

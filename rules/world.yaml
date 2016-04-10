@@ -212,7 +212,7 @@ World:
 		CLassName: Medium Support
 		Factions: yuricountry
 		BaseActor: pcv
-		SupportActors: dog,init,init,init,htnk,engineer
+		SupportActors: dog,init,init,init,ltnk,engineer
 		InnerSupportRadius: 3
 		OuterSupportRadius: 5
 	MPStartUnits@heavyyuri:
@@ -220,7 +220,7 @@ World:
 		CLassName: Heavy Support
 		Factions: yuricountry
 		BaseActor: pcv
-		SupportActors: dog,init,init,init,init,htnk,htnk,htk,engineer
+		SupportActors: dog,init,init,init,init,ltnk,ltnk,ltnk,engineer
 		InnerSupportRadius: 3
 		OuterSupportRadius: 5
 	CrateSpawner:

@@ -114,3 +114,85 @@ yarefn:
 		Start: 0
 		Length: 2
 		ShadowStart: 2
+
+yaweap:
+	Defaults:
+		Offset: -30, -60
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERATE: GENERIC
+			URBAN: GENERIC
+	idle: ygweap
+		ShadowStart: 3
+		ZOffset: -1024
+	damaged-idle: ygweap
+		Start: 1
+		ShadowStart: 4
+		ZOffset: -1024
+	build-ramp: ygweap_1
+		ShadowStart: 2
+	damaged-build-ramp: ygweap_1
+		Start: 1
+		ShadowStart: 3
+	build-top: ygweap_2
+		ShadowStart: 2
+		ZOffset: 1024
+	damaged-build-top: ygweap_2
+		Start: 1
+		ShadowStart: 3
+		ZOffset: 1024
+# TODO: ygweap_3 and ygweap_4 are used for producing flying actors
+	build-air-open: ygweap_3
+		ShadowStart: 2
+	damaged-air-open: ygweap_3
+		Start: 1
+		ShadowStart: 3
+	build-air-inside: ygweap_4
+		ShadowStart: 2
+	damaged-air-inside: ygweap_4
+		Start: 1
+		ShadowStart: 3
+	bib: ygweapbb
+		ShadowStart: 2
+		ZOffset: -1024
+	damaged-bib: ygweapbb
+		Start: 1
+		ShadowStart: 2
+		ZOffset: -1024
+	idle-flag: ygweap_a
+		Length: 8
+		ShadowStart: 8
+	damaged-idle-flag: ygweap_ad
+		Length: 8
+		ShadowStart: 8
+	make: ygweapmk
+		Length: 25
+		ShadowStart: 25
+	icon: ywepicon
+		Offset: 0,0
+		UseTilesetCode: false
+
+yaggun:
+	Defaults:
+		Offset: 0, -20
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERATE: GENERIC
+			URBAN: GENERIC
+	idle: ygggun
+		ShadowStart: 3
+	damaged-idle: ygggun
+		Start: 1
+		ShadowStart: 4
+	critical-idle: ygggun
+		Start: 2
+		ShadowStart: 5
+	make: ygggunmk
+		Length: 13
+		ShadowStart: 13
+		ZOffset: 0
+	icon: ggunicon
+		Offset: 0,0
+		UseTilesetCode: false
+
+	
