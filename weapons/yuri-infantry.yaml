@@ -17,7 +17,7 @@ PsychicJab:
 			Wood: 75
 			Steel: 50
 			Concrete: 25
-		DamageTypes: Prone70Percent, TriggerProne, ElectroDeath
+		DamageTypes: Prone70Percent, TriggerProne, FlameDeath
 
 PsychicJabE:
 	Inherits: PsychicJab
