@@ -180,6 +180,10 @@ yarefn:
 		CaptureAmount: 1000
 	WithIdleOverlay@collect:
 		Sequence: idle-collect
+	AttackOmni:
+	Armament:
+		Weapon: 20mmrapid
+	AutoTarget:
 
 yaweap:
 	Inherits: ^Building

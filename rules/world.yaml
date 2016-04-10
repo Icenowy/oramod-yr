@@ -220,7 +220,7 @@ World:
 		CLassName: Heavy Support
 		Factions: yuricountry
 		BaseActor: pcv
-		SupportActors: dog,init,init,init,init,ltnk,ltnk,ltnk,engineer
+		SupportActors: dog,init,init,init,init,ltnk,ltnk,ltnk,ytnk,engineer
 		InnerSupportRadius: 3
 		OuterSupportRadius: 5
 	CrateSpawner:
