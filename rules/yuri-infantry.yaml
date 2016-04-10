@@ -3,7 +3,7 @@ init:
 	Inherits@2: ^Parachutable
 	Buildable:
 		Queue: Infantry
-		Prerequisites: ~nahand
+		Prerequisites: ~yabrck
 		BuildPaletteOrder: 10
 	Valued:
 		Cost: 200

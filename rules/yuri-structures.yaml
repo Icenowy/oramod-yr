@@ -49,3 +49,135 @@ yacnst:
 		ActorTypes: e2, e2, e2, engineer
 		Factions: yuricountry
 
+yapowr:
+	Inherits: ^Building
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 10
+		Prerequisites: ~structures.yuricountry
+	Valued:
+		Cost: 600
+	Tooltip:
+		Name: Bio Reactor
+		Description: Provides power for other structures.
+	ProvidesPrerequisite:
+		Prerequisite: power
+	Building:
+		Footprint: xx xx
+		Dimensions: 2,2
+	Selectable:
+		Bounds: 126, 94, 2, -16
+	Health:
+		HP: 700
+	Armor:
+		Type: Wood
+	RevealsShroud:
+		Range: 4c0
+	WithIdleOverlay@lights:
+		Sequence: idle-lights
+	Power:
+		Amount: 150
+	InfiltrateForPowerOutage:
+	AffectedByPowerOutage:
+	ScalePowerWithHealth:
+	SoundOnDamageTransition:
+		DestroyedSounds: bpowdiea.wav, bpowdieb.wav
+	PowerTooltip:
+	Targetable:
+		TargetTypes: Ground, C4, DetonateAttack, Structure, SpyInfiltrate
+
+yabrck:
+	Inherits: ^Building
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 20
+		Prerequisites: power, ~structures.yuricountry
+	Valued:
+		Cost: 500
+	Tooltip:
+		Name: Barracks
+		Description: Produces infantry.
+	ProvidesPrerequisite:
+		Prerequisite: barracks
+	ProvidesPrerequisite@default:
+	Building:
+		Footprint: xx xx xx
+		Dimensions: 2,3
+	Selectable:
+		Bounds: 94, 168, 0, -58
+	Health:
+		HP: 500
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 6c0
+	Exit@1:
+		SpawnOffset: -64,64,0
+		ExitCell: 0,0
+	Production:
+		Produces: Infantry
+	PrimaryBuilding:
+	RallyPoint:
+		Offset: 3,3
+		Palette: mouse
+		IsPlayerPalette: false
+	ProductionBar:
+	Power:
+		Amount: -10
+	UpgradeManager:
+	InfiltrateForSupportPower:
+		Proxy: barracks.infiltrated
+	Targetable:
+		TargetTypes: Ground, C4, DetonateAttack, Structure, SpyInfiltrate
+	WithDecoration@primary:
+		RequiresSelection: true
+		Image: pips
+		Sequence: tag-primary
+		ReferencePoint: Top
+		ZOffset: 256
+		UpgradeTypes: primary
+		UpgradeMinEnabledLevel: 1
+
+yarefn:
+	Inherits: ^Building
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 30
+		Prerequisites: power, ~structures.yuricountry
+	Selectable:
+		Bounds: 170, 150, -6, -33
+	Valued:
+		Cost: 1500
+	Tooltip:
+		Name: Ore Refinery
+		Description: Processes ore into credits.
+	ProvidesPrerequisite:
+		Prerequisite: refinery
+	ProvidesPrerequisite@default:
+	Building:
+		Footprint: xx xx
+		Dimensions: 2,2
+	Health:
+		HP: 2000
+	Armor:
+		Type: Wood
+	RevealsShroud:
+		Range: 6c0
+	StoresResources:
+		PipColor: Yellow
+		PipCount: 0
+		Capacity: 999999
+	InfiltrateForCash:
+		Percentage: 50
+		Notification: CreditsStolen
+		Minimum: 500
+	Targetable:
+		TargetTypes: Ground, C4, DetonateAttack, Structure, SpyInfiltrate
+	-Sellable:
+	CashTrickler: # TODO: Replace this with Slave logic
+		Period: 16
+		Amount: 20
+		CaptureAmount: 1000
+	WithIdleOverlay@collect:
+		Sequence: idle-collect
+

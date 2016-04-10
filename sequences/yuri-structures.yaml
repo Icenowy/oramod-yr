@@ -15,9 +15,6 @@ yacnst:
 	make: ygcnstmk
 		Length: 27
 		ShadowStart: 27
-		TilesetOverrides:
-			TEMPERATE: GENERIC
-			URBAN: GENERIC
 	idle-top: ygcnst_a
 		Length: 3
 		Tick: 200
@@ -43,4 +40,77 @@ yacnst:
 		Offset: 0,0
 		UseTilesetCode: false
 
+yapowr:
+	Defaults:
+		Offset: -15, -37
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERATE: GENERIC
+			URBAN: GENERIC
+	idle: ygpowr
+		ShadowStart: 3
+	damaged-idle: ygpowr
+		Start: 1
+		ShadowStart: 4
+	critical-idle: ygpowr
+		Start: 2
+		ShadowStart: 5
+	idle-lights: ygpowr_a
+		Length: 8
+		Tick: 150
+	damaged-idle-lights: ygpowr_a
+		Start: 8
+		Length: 8
+		Tick: 150
+	make: ygpowrmk
+		Length: 23
+		ShadowStart: 23
+	icon: ypwricon
+		Offset: 0,0
+		UseTilesetCode: false
 
+yabrck:
+	Defaults:
+		Offset: 1, -31
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERATE: GENERIC
+			URBAN: GENERIC
+	idle: ygbrck
+		ShadowStart: 3
+	damaged-idle: ygbrck
+		Start: 1
+		ShadowStart: 4
+	critical-idle: ygbrck
+		Start: 2
+		ShadowStart: 5
+	make: ygbrckmk
+		Length: 25
+		ShadowStart: 25
+	icon: brckicon
+		Offset: 0,0
+		UseTilesetCode: false
+
+# Stub only now. How can it collect ores by using slaves?
+yarefn:
+	Defaults:
+		Offset: -15, -38
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERATE: GENERIC
+			URBAN: GENERIC
+	idle: ygrefn
+		ShadowStart: 3
+	damaged-idle: ygrefn
+		Start: 1
+		ShadowStart: 4
+	make: ygrefnmk
+		Length: 17
+		ShadowStart: 17
+	icon: sminicon
+		Offset: 0,0
+		UseTilesetCode: false
+	idle-collect: ygrefn_a
+		Start: 0
+		Length: 2
+		ShadowStart: 2
