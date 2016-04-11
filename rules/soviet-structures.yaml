@@ -102,6 +102,8 @@ nahand:
 	ProvidesPrerequisite@iraq:
 		Prerequisite: infantry.iraq
 		Factions: iraq
+	ProvidesPrerequisite@dog:
+		Prerequisite: infantry.dog
 	ProvidesPrerequisite@default:
 	Building:
 		Footprint: xx xx

@@ -78,3 +78,76 @@ yuri:
 	QuantizeFacingsFromSequence:
 		Sequence: stand
 	-MindControllable:
+
+brute:
+	Inherits: ^Infantry
+	Buildable:
+		Queue: Infantry
+		Prerequisites: ~yabrck
+		BuildPaletteOrder: 50
+	Valued:
+		Cost: 500
+	Tooltip:
+		Name: Brute
+		Description: Extraordinary strong unit.
+	Selectable:
+		Bounds: 30, 24, 0, -5
+	Health:
+		HP: 200
+	SelfHealing:
+	Mobile:
+		Speed: 99
+	Passenger:
+		PipType: Yellow
+	RevealsShroud:
+		Range: 5c0
+	Armament:
+		Weapon: punch # TODO: smash
+	AttackFrontal:
+		Voice: Attack
+	IgnoresDisguise:
+	DetectCloaked:
+		Range: 5c0
+	Voiced:
+		VoiceSet: DogVoice
+	ProducibleWithLevel:
+		Prerequisites: barracks.infiltrated
+	QuantizeFacingsFromSequence:
+		Sequence: stand
+	-MindControllable:
+
+virus:
+	Inherits: ^Infantry
+	Valued:
+		Cost: 700
+	Tooltip:
+		Name: Virus Sniper
+		Description: Yuri's anti-infantry unit.\n  Strong vs Infantry\n  Weak vs Vehicles, Aircraft
+	Buildable:
+		Queue: Infantry
+		BuildPaletteOrder: 80
+		Prerequisites: radar, ~yabrck
+	Selectable:
+		Bounds: 20, 30, 0, -11
+	Mobile:
+		Speed: 40
+	Health:
+		HP: 100
+	Passenger:
+		PipType: Red
+	RevealsShroud:
+		Range: 9c0
+	Armor:
+		Type: None
+	AutoTarget:
+		InitialStance: ReturnFire
+	Armament@primary:
+		Weapon: virusgun
+	AttackFrontal:
+		Voice: Attack
+	Voiced:
+		VoiceSet: SniperVoice
+	ProducibleWithLevel:
+		Prerequisites: barracks.infiltrated
+
+

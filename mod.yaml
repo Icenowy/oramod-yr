@@ -88,12 +88,12 @@ Rules:
 	yr|rules/world.yaml
 	ra2|rules/palettes.yaml
 	ra2|rules/defaults.yaml
-	ra2|rules/allied-infantry.yaml
+	yr|rules/allied-infantry.yaml
 	yr|rules/soviet-infantry.yaml
 	yr|rules/yuri-infantry.yaml
 	ra2|rules/civilians.yaml
 	ra2|rules/animals.yaml
-	ra2|rules/allied-structures.yaml
+	yr|rules/allied-structures.yaml
 	yr|rules/soviet-structures.yaml
 	yr|rules/yuri-structures.yaml
 	ra2|rules/civilian-structures.yaml

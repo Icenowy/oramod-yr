@@ -355,7 +355,7 @@ yapsyt:
 		Range: 5c0
 	WithChargeAnimation:
 	Armament:
-		Weapon: MindControl
+		Weapon: MindControl8
 	AttackLoyalty:
 		TargetsAtOnce: 3
 	Power:

@@ -57,16 +57,18 @@ ATGUNE:
 		Explosions: large_watersplash
 		ImpactSounds: gexpwala.wav
 
+# A*Gattling2 is temorarily advanced for lack of gattling logic
+
 AGGattling2:
 	ValidTargets: Ground, Water
-	ReloadDelay: 16
+	ReloadDelay: 12
 	Range: 5c0
 	Report: vgatlo4a.wav, vgatlo5a.wav, vgatlo5b.wav, vgatlo6a.wav
 	Projectile: Bullet
 		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
 		Spread: 64
-		Damage: 25
+		Damage: 50
 		Versus:
 			None: 100
 			Flak: 80
@@ -81,14 +83,14 @@ AGGattling2:
 
 AAGattling2:
 	ValidTargets: Air
-	ReloadDelay: 8
+	ReloadDelay: 6
 	Range: 8c0
 	Report: vgatlo4a.wav, vgatlo5a.wav, vgatlo5b.wav, vgatlo6a.wav
 	Projectile: Bullet
 		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
 		Spread: 120
-		Damage: 30
+		Damage: 50
 		ValidTargets: Air
 		Versus:
 			None: 100
@@ -103,16 +105,18 @@ AAGattling2:
 		DamageTypes: BulletDeath
 
 disklaser:
-	ValidTarget: Ground, Water, Air
 	ReloadDelay: 40
 	Range: 7c0
+	MinRange: 0c001
 	Report: bpriat1a.wav
+	ValidTargets: Ground, Air
 	Projectile: LaserZap
 		BeamWidth: 4
 		UsePlayerColor: true
 	Warhead@1Dam: SpreadDamage
-		Spread: 42
+		Spread: 64
 		Damage: 90
+		ValidTargets: Ground, Air
 		Versus:
 			None: 100
 			Flak: 100
@@ -123,6 +127,24 @@ disklaser:
 			Wood: 100
 			Steel: 100
 			Concrete: 100
-		DamageTypes: RadiationDeath
+		DamageTypes: Prone70Percent, TriggerProne, RadiationDeath
 
-
+MindControl8:
+	ReloadDelay: 20
+	Range: 8c0
+	Projectile: Bullet
+		Speed: 100
+		High: true
+	Warhead@1Dam: SpreadDamage
+		Spread: 10
+		Damage: 10
+		Versus:
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 100
+			Medium: 100
+			Heavy: 100
+			Wood: 0
+			Steel: 0
+			Concrete: 0

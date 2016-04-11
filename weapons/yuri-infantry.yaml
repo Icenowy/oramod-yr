@@ -24,3 +24,50 @@ PsychicJabE:
 	Range: 6c0
 	Warhead@1Dam: SpreadDamage
 		Damage: 30
+
+punch:
+	ValidTargets: Ground
+	ReloadDelay: 60
+	Range: 1c4
+	Report: ibruatta.wav, ibruattb.wav, ibruattc.wav, ibruattd.wav, ibruatte.wav, ibruattf.wav
+	Projectile: Bullet
+		Speed: 100c0
+	Warhead@1Dam: SpreadDamage
+		Spread: 213
+		Damage: 100
+		ValidTargets: Ground
+		Versus:
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 100
+			Medium: 20
+			Heavy: 100
+			Wood: 30
+			Steel: 30
+			Concrete: 20
+		DamageTypes: BulletDeath
+
+virusgun:
+	ValidTargets: Infantry
+	ReloadDelay: 100
+	Range: 10c0
+	Report: isniatta.wav
+	Projectile: Bullet
+		Speed: 100c0
+	Warhead@1Dam: SpreadDamage
+		Spread: 42
+		Damage: 125
+		Versus:
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 2
+			Medium: 2
+			Heavy: 2
+			Wood: 2
+			Steel: 2
+			Concrete: 2
+		DamageTypes: BulletDeath
+
+

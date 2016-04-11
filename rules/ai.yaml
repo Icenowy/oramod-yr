@@ -61,7 +61,8 @@ Player:
 			e2: 90%
 			init: 90%
 			dog: 5%
-			engineer: 5%
+			brute: 4%
+			virus: 2%
 			flakt: 3%
 			shk: 6%
 			terror: 1%
