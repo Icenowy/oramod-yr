@@ -1,0 +1,300 @@
+Player:
+	HackyAI@airai:
+		Name: Airforce AI
+		BuildingCommonNames:
+			ConstructionYard: gacnst, nacnst, yacnst
+			Refinery: garefn, narefn, yarefn
+			Power: gapowr, napowr, nanrct, yapowr
+			Barracks: gapile, nahand, yabrck
+			VehiclesFactory: gaweap, naweap, yaweap
+			Production: gapile, nahand, gaweap, naweap, gaairc, yabrck, yaweap
+		UnitsCommonNames:
+			Mcv: amcv, smcv, pcv
+		BuildingLimits:
+			garefn: 4
+			narefn: 4
+			yarefn: 8
+			gapowr: 10
+			napowr: 8
+			yapowr: 10
+			nanrct: 1
+			gapile: 2
+			nahand: 2
+			yabrck: 2
+			gaweap: 2
+			naweap: 2
+			yaweap: 2
+			gaairc: 2
+			nasam: 10
+			naflak: 10
+			tesla: 3
+			atesla: 3
+			yaggun: 13
+		BuildingFractions:
+			garefn: 30%
+			narefn: 30%
+			yarefn: 30%
+			gapowr: 35%
+			napowr: 35%
+			yapowr: 35%
+			gapile: 1%
+			nahand: 1%
+			yabrck: 1%
+			gaweap: 1%
+			naweap: 1%
+			yaweap: 1%
+			gaairc: 1%
+			amradr: 1%
+			naradr: 1%
+			napsis: 1%
+			gatech: 1%
+			natech: 1%
+			yatech: 1%
+			naclon: 1%
+			gadept: 1%
+			nadept: 1%
+			nasam: 1%
+			naflak: 1%
+			tesla: 1%
+			gtgcan: 1%
+			yapsyt: 1%
+			gapill: 2%
+			nalasr: 2%
+			yaggun: 2.5%
+		UnitsToBuild:
+			e1: 1%
+			e2: 1%
+			init: 1%
+			dog: 1%
+			brute: 0.5%
+			virus: 0.5%
+			flakt: 10%
+			shk: 1%
+			terror: 1%
+			jumpjet: 50%
+			deso: 1%
+			tany: 1%
+			snipe: 1%
+			htnk: 1%
+			htk: 10%
+			mtnk: 1%
+			fv: 10%
+			ltnk: 1%
+			ytnk: 10%
+			sref: 0.5%
+			mgtk: 0.5%
+			apoc: 3%
+			mind: 0.6%
+			dtruck: 1%
+			tnkd: 1%
+			ttnk: 1%
+			ghost: 1%
+			shad: 60%
+			zep: 60%
+			yuri: 1%
+			disk: 60%
+		SupportPowerDecision@IRONCURTAIN:
+			OrderName: Invulnerability
+			MinimumAttractiveness: 15000
+			Consideration@1:
+				Against: Enemy
+				Types: Infantry
+				Attractiveness: 10
+				TargetMetric: Value
+				CheckRadius: 1c0
+			Consideration@2:
+				Against: Ally
+				Types: Vehicle
+				Attractiveness: 10
+				TargetMetric: Value
+				CheckRadius: 1c0
+			Consideration@3:
+				Against: Ally
+				Types: Infantry
+				Attractiveness: -10
+				TargetMetric: Value
+				CheckRadius: 1c0
+			Consideration@4:
+				Against: Ally
+				Types: Structures
+				Attractiveness: 2
+				TargetMetric: Value
+				CheckRadius: 1c0
+		SupportPowerDecision@nuke:
+			OrderName: NukePowerInfoOrder
+			MinimumAttractiveness: 3000
+			Consideration@1:
+				Against: Enemy
+				Types: Structure
+				Attractiveness: 1
+				TargetMetric: Value
+				CheckRadius: 5c0
+			Consideration@2:
+				Against: Ally
+				Types: Air, Ground, Water
+				Attractiveness: -10
+				TargetMetric: Value
+				CheckRadius: 7c0
+		SupportPowerDecision@americaparatroopers:
+			OrderName: AmericanParatroopers
+			MinimumAttractiveness: 5
+			Consideration@1:
+				Against: Enemy
+				Types: Structure
+				Attractiveness: 1
+				TargetMetric: None
+				CheckRadius: 8c0
+			Consideration@2:
+				Against: Enemy
+				Types: Water
+				Attractiveness: -5
+				TargetMetric: None
+				CheckRadius: 8c0
+		SquadSize: 15
+	HackyAI@giantai:
+		Name: Giant AI
+		BuildingCommonNames:
+			ConstructionYard: gacnst, nacnst, yacnst
+			Refinery: garefn, narefn, yarefn
+			Power: gapowr, napowr, nanrct, yapowr
+			Barracks: gapile, nahand, yabrck
+			VehiclesFactory: gaweap, naweap, yaweap
+			Production: gapile, nahand, gaweap, naweap, gaairc, yabrck, yaweap
+		UnitsCommonNames:
+			Mcv: amcv, smcv, pcv
+		BuildingLimits:
+			garefn: 4
+			narefn: 4
+			yarefn: 8
+			gapowr: 8
+			napowr: 8
+			yapowr: 8
+			nanrct: 1
+			gapile: 2
+			nahand: 2
+			yabrck: 2
+			gaweap: 2
+			naweap: 2
+			yaweap: 2
+			gaairc: 2
+		BuildingFractions:
+			garefn: 30%
+			narefn: 30%
+			yarefn: 30%
+			gapowr: 35%
+			napowr: 35%
+			yapowr: 35%
+			gapile: 1%
+			nahand: 1%
+			yabrck: 1%
+			gaweap: 1%
+			naweap: 1%
+			yaweap: 1%
+			gaairc: 1%
+			amradr: 1%
+			naradr: 1%
+			napsis: 1%
+			gatech: 1%
+			natech: 1%
+			yatech: 1%
+			naclon: 1%
+			gadept: 1%
+			nadept: 1%
+			nasam: 1%
+			naflak: 1%
+			tesla: 1%
+			gtgcan: 1%
+			yapsyt: 1%
+			gapill: 2%
+			nalasr: 2%
+			yaggun: 2.5%
+		UnitsToBuild:
+			e1: 90%
+			e2: 90%
+			init: 90%
+			dog: 5%
+			brute: 4%
+			virus: 2%
+			flakt: 3%
+			shk: 6%
+			terror: 1%
+			jumpjet: 2%
+			deso: 1%
+			tany: 1%
+			snipe: 1%
+			htnk: 3%
+			htk: 2%
+			mtnk: 3%
+			fv: 2%
+			ltnk: 3%
+			ytnk: 2%
+			sref: 0.5%
+			mgtk: 0.5%
+			apoc: 0.5%
+			mind: 0.6%
+			dtruck: 1%
+			tnkd: 1%
+			ttnk: 1%
+			ghost: 1%
+			shad: 1%
+			zep: 1%
+			yuri: 1%
+			disk: 1%
+		SupportPowerDecision@IRONCURTAIN:
+			OrderName: Invulnerability
+			MinimumAttractiveness: 15000
+			Consideration@1:
+				Against: Enemy
+				Types: Infantry
+				Attractiveness: 10
+				TargetMetric: Value
+				CheckRadius: 1c0
+			Consideration@2:
+				Against: Ally
+				Types: Vehicle
+				Attractiveness: 10
+				TargetMetric: Value
+				CheckRadius: 1c0
+			Consideration@3:
+				Against: Ally
+				Types: Infantry
+				Attractiveness: -10
+				TargetMetric: Value
+				CheckRadius: 1c0
+			Consideration@4:
+				Against: Ally
+				Types: Structures
+				Attractiveness: 2
+				TargetMetric: Value
+				CheckRadius: 1c0
+		SupportPowerDecision@nuke:
+			OrderName: NukePowerInfoOrder
+			MinimumAttractiveness: 3000
+			Consideration@1:
+				Against: Enemy
+				Types: Structure
+				Attractiveness: 1
+				TargetMetric: Value
+				CheckRadius: 5c0
+			Consideration@2:
+				Against: Ally
+				Types: Air, Ground, Water
+				Attractiveness: -10
+				TargetMetric: Value
+				CheckRadius: 7c0
+		SupportPowerDecision@americaparatroopers:
+			OrderName: AmericanParatroopers
+			MinimumAttractiveness: 5
+			Consideration@1:
+				Against: Enemy
+				Types: Structure
+				Attractiveness: 1
+				TargetMetric: None
+				CheckRadius: 8c0
+			Consideration@2:
+				Against: Enemy
+				Types: Water
+				Attractiveness: -5
+				TargetMetric: None
+				CheckRadius: 8c0
+		SquadSize: 30

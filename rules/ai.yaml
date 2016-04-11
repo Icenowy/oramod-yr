@@ -88,4 +88,61 @@ Player:
 			zep: 1%
 			yuri: 1%
 			disk: 1%
+		SupportPowerDecision@IRONCURTAIN:
+			OrderName: Invulnerability
+			MinimumAttractiveness: 15000
+			Consideration@1:
+				Against: Enemy
+				Types: Infantry
+				Attractiveness: 10
+				TargetMetric: Value
+				CheckRadius: 1c0
+			Consideration@2:
+				Against: Ally
+				Types: Vehicle
+				Attractiveness: 10
+				TargetMetric: Value
+				CheckRadius: 1c0
+			Consideration@3:
+				Against: Ally
+				Types: Infantry
+				Attractiveness: -10
+				TargetMetric: Value
+				CheckRadius: 1c0
+			Consideration@4:
+				Against: Ally
+				Types: Structures
+				Attractiveness: 2
+				TargetMetric: Value
+				CheckRadius: 1c0
+		SupportPowerDecision@nuke:
+			OrderName: NukePowerInfoOrder
+			MinimumAttractiveness: 3000
+			Consideration@1:
+				Against: Enemy
+				Types: Structure
+				Attractiveness: 1
+				TargetMetric: Value
+				CheckRadius: 5c0
+			Consideration@2:
+				Against: Ally
+				Types: Air, Ground, Water
+				Attractiveness: -10
+				TargetMetric: Value
+				CheckRadius: 7c0
+		SupportPowerDecision@americaparatroopers:
+			OrderName: AmericanParatroopers
+			MinimumAttractiveness: 5
+			Consideration@1:
+				Against: Enemy
+				Types: Structure
+				Attractiveness: 1
+				TargetMetric: None
+				CheckRadius: 8c0
+			Consideration@2:
+				Against: Enemy
+				Types: Water
+				Attractiveness: -5
+				TargetMetric: None
+				CheckRadius: 8c0
 		SquadSize: 5

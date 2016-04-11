@@ -84,6 +84,7 @@ Rules:
 	ra2|rules/proxy-actors.yaml
 	ra2|rules/misc.yaml
 	yr|rules/ai.yaml
+	yr|rules/extra-ai.yaml
 	ra2|rules/player.yaml
 	yr|rules/world.yaml
 	ra2|rules/palettes.yaml
