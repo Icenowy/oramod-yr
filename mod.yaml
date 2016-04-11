@@ -98,6 +98,7 @@ Rules:
 	yr|rules/yuri-structures.yaml
 	ra2|rules/civilian-structures.yaml
 	ra2|rules/tech-structures.yaml
+	yr|rules/tech-structures.yaml
 	ra2|rules/allied-vehicles.yaml
 	ra2|rules/soviet-vehicles.yaml
 	yr|rules/yuri-vehicles.yaml

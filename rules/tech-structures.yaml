@@ -1,0 +1,17 @@
+caairp:
+	ProvidesPrerequisite@yuricountry:
+		Prerequisite: paratroopers.yuricountry
+		Factions: yuricountry
+		ResetOnOwnerChange: true
+	ParatroopersPower@yuricountry:
+		OrderName: YuriParatroopers
+		Icon: paradrop
+		ChargeTime: 240
+		Description: Paratroopers
+		LongDesc: A Cargo Plane drops six Initates\nanywhere on the map.
+		DropItems: init,init,init,init,init,init
+		QuantizedFacings: 8
+		UnitType: pdplane
+		CameraActor: camera
+		Prerequisites: yabrck
+
