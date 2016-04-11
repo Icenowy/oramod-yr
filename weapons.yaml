@@ -80,6 +80,9 @@ AGGattling2:
 			Steel: 5
 			Concrete: 3
 		DamageTypes: Prone70Percent, TriggerProne, BulletDeath
+	Warhead@2Eff: CreateEffect
+		Explosions: piffpiff
+	
 
 AAGattling2:
 	ValidTargets: Air
@@ -103,6 +106,9 @@ AAGattling2:
 			Steel: 5
 			Concrete: 3
 		DamageTypes: BulletDeath
+	Warhead@2Eff: CreateEffect
+		Explosions: piffpiff
+
 
 disklaser:
 	ReloadDelay: 40

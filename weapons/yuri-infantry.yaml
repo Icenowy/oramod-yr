@@ -18,6 +18,8 @@ PsychicJab:
 			Steel: 50
 			Concrete: 25
 		DamageTypes: Prone70Percent, TriggerProne, FlameDeath
+	Warhead@2Eff: CreateEffect
+		Explosions: initfire
 
 PsychicJabE:
 	Inherits: PsychicJab

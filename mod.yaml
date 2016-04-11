@@ -112,6 +112,7 @@ Rules:
 
 Sequences:
 	ra2|sequences/misc.yaml
+	yr|sequences/misc.yaml
 	ra2|sequences/aircraft.yaml
 	ra2|sequences/allied-infantry.yaml
 	ra2|sequences/soviet-infantry.yaml
