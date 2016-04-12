@@ -6,12 +6,12 @@ caairp:
 	ParatroopersPower@yuricountry:
 		OrderName: YuriParatroopers
 		Icon: paradrop
-		ChargeTime: 240
+		ChargeTime: 360
 		Description: Paratroopers
-		LongDesc: A Cargo Plane drops six Initates\nanywhere on the map.
+		LongDesc: A Cargo Plane drops six initates\nanywhere on the map.
 		DropItems: init,init,init,init,init,init
 		QuantizedFacings: 8
 		UnitType: pdplane
 		CameraActor: camera
-		Prerequisites: yabrck
+		Prerequisites: ~structures.yuricountry
 
